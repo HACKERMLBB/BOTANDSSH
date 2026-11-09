@@ -6,5 +6,5 @@ python main.py &
 sleep 3
 
 # 2. Web Terminal eka $PORT eke duvanna
-# pamela = username, CHANGE_THIS_PASSWORD_123 = password - MEKA MARU KARANNA!
-exec ttyd -p $PORT -c pamela:CHANGE_THIS_PASSWORD_123 -W bash
+# Username: pamela | Password: 123456
+exec ttyd -p $PORT -c pamela:123456 -W bash
